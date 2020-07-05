@@ -31,7 +31,7 @@ module.exports = {
   entry: ['./scripts.js'],
   output: {
     filename: filename('js'),
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'distribution'),
   },
   devtool: isDev ? 'source-map' : false,
   devServer: {
